@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: lawngreen;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: #fff;
+}
+header>nav>ul>li:hover a{
+    color: darkgreen;
+}
+header>nav>ul>li>a{
+    color:#fff;
+    text-decoration: none;
+}
+.banner1{
+    background-color: coral;
+}
+.bannercommonClass1{
+    color: black;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannercommonClass1>h1{
+    font-size: 50px;
+}
+.bannercommonClass1>h1:hover{
+    color: purple;
+}
+/*resposive banner using image*/
+.bannercommonClass2{
+    color: black;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannercommonClass2>h1{
+    font-size: 50px;
+}
+.bannercommonClass2>h1:hover{
+    color: purple;
+}
+.banner2{ 
+    background-position: center;
+    background-size: cover;
+}

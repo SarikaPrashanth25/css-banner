@@ -1,0 +1,49 @@
+/* MOBILE VERSION */
+@media(max-width:768px){
+    .header>nav{
+        background-color: yellowgreen;
+        padding: 20px;
+    }
+    .header>nav>ul{
+        float: none;
+    }
+    .header>nav>ul>li{
+        display: block;
+    }
+    .header>nav{
+        text-align: center;
+    }
+    .bannercommonClass1{
+        background-color: pink;
+    }
+    /*banner 2 */
+    .bannercommonClass2{
+        background-image: url(../Images/Asnmob.jpg);
+    }
+}
+/* TAB VERSION */
+@media(min-width:769px) and (max-width:1024px){
+    .header>nav{
+        background-color: aqua;
+        padding: 20px;
+    }
+    .header>nav>ul{
+        float: none;
+    }
+    .header>nav{
+        text-align: center;
+    }
+    .bannercommonClass1{
+        background-color: palegreen;
+    }
+    /*banner 2*/
+    .bannercommonClass2{
+        background-image: url(../Images/Asntab.jpg);
+    }
+}
+/*MOBILE VERSION */
+@media(min-width:1025px) {
+    .bannercommonClass2{
+        background-image: url(../Images/Asndesktop.jpg);
+    }
+}
